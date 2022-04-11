@@ -2,4 +2,4 @@ image:
   file: .gitpod.Dockerfile
 tasks:
   - name: TRUFFLE
-    command: mkdir MyChainlinkProject && cd MyChainlinkProject && truffle unbox smartcontractkit/box && yarn install
+    command: yarn install
